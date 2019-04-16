@@ -31,3 +31,36 @@
     transform: rotate(360deg);
   }
 }
+
+.user-name {
+  width: 200px;
+  height: 30px;
+
+  font-size: 25px;
+  margin-left: 15px;
+}
+
+.submit-button {
+  width: 200px;
+  height: 30px;
+
+  margin-left: 15px;
+  font-size: 15px;
+}
+
+.from-div {
+  display: flex;
+  justify-content: space-around;
+}
+
+form {
+  width: 230px;
+  height: 100px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-content: center;
+  justify-content: center;
+  border: 1px solid black;
+}
